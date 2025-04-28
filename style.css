@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:wght@100..900&display=swap');
+:root{
+    --bd-logo-color: #53331b;
+    --bd-light-tan: #F3F1E9;
+    --bd-lighter-tan: #f9f8f6;
+    --bd-dark-tan: #bcb8a5;
+    --bd-light-gray: #f4f4f4;
+    --bd-border-color:#ddd;
+    --bd-lighish-gray: #dfdbd8;
+    --bd-light-black: #333333;
+    --bd-light-brown: #7b6c58;
+    --bd-transparent-white-75: rgba(255, 255, 255, .75);
+    --bs-font-sans-serif: "Montserrat", Verdana, Helvetica, sans-serif;
+}
+ /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.container{
+    width: 90%;
+    margin: auto;
+}
+  /* Start Header Section */
+  /* First Header Style */
+  .firstHeader {
+    font-size: 15px;
+    padding: 0.2em;
+    font-family: var(--bs-font-sans-serif);
+    display: flex;
+    justify-content: flex-end;
+  }
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: var(--bd-light-black);
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    border-bottom: 2px solid var(--bd-light-brown) ;
+  }
+  
+  /* Second Header - Logo + Search + Icons */
+  .secondHeader {
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--bs-font-sans-serif);
+    border-bottom: 1px solid var(--bd-border-color);
+  }
+
+  /* Logo */
+  .logo {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    color:var(--bd-logo-color);
+  }
+  
+  /* Search bar */
+  .search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    border: var(--bd-border-color) 0.075em solid;
+  }
+  
+  .search-bar input {
+    flex:1 ;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+  }
+  .search-bar input::placeholder{
+    font-weight: 600;
+  }
+  
+  .search-bar button {
+    padding: 10px 15px;
+    cursor: pointer;
+    outline: none;
+    background: none;
+    border: none;
+  }
+  
+  .search-bar button:hover {
+    cursor: pointer;
+  }
+  
+  /* Icons Section */
+  .icons {
+    display: flex;
+    gap: 15px;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .icon {
+    text-align: center;
+    color:var(--bd-logo-color);
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .icon i {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .icon span {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  /* Cart special styling */
+  .cart {
+    position: relative;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: var(--bd-light-black);
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+
+  }
+  
