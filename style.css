@@ -14,6 +14,7 @@
   --bd-black: #000;
   --bd-light-brown: #7b6c58;
   --bs-body-color: #686868;
+  --bd-blue: #006fcc;
   --bs-body-red: #de3434;
   --bd-transparent-white-75: rgba(255, 255, 255, 0.75);
   --bs-font-sans-serif: "Montserrat", Verdana, Helvetica, sans-serif;
@@ -127,41 +128,62 @@
 /* Icons Section */
 .mainHeader .icons {
   display: flex;
-  gap: 0.9375rem;
+  gap: 1rem;
   flex: 1;
   justify-content: flex-end;
   align-items: center;
 }
 
-.mainHeader .icons .icon a {
-  text-align: center;
-  display: inline-block;
-  color: var(--bd-logo-color);
-  cursor: pointer;
-  font-size: 0.875rem;
-  text-decoration: none;
-  text-decoration: none;
-  border-bottom: 0.125rem solid transparent;
-}
-
-.mainHeader .icons .icon i {
-  font-size: 1.25rem;
-  margin-bottom: 0.3125rem;
-}
-.mainHeader .icons .icon a:hover {
-  border-bottom-color: var(--bd-light-brown);
-}
-
-.mainHeader .icons .icon span {
-  display: block;
-  margin-top: 0.18rem;
-  color: var(--bs-body-color);
-  font-size: small;
-}
-
-.mainHeader .cart {
+.mainHeader .icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
 }
+
+.mainHeader .icon a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: var(--bd-logo-color);
+  text-decoration: none;
+  font-size: 0.8rem;
+  min-width: 3.5rem;
+}
+
+.mainHeader .icon img,
+.mainHeader .icon i {
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+.mainHeader .icon i {
+  font-size: 2rem;
+}
+
+.mainHeader .icon span {
+  font-size: 0.65rem;
+  line-height: 1rem;
+  font-weight: 600;
+  color: var(--bd-light-black);
+}
+
+.mainHeader .cart-count {
+  position: absolute;
+  top: 0;
+  right: -5px;
+  background: #333;
+  color: #fff;
+  font-size: 0.65rem;
+  border-radius: 50%;
+  padding: 2px 6px;
+  min-width: 1rem;
+  text-align: center;
+}
+
 .mainHeader .menu-toggle {
   display: none;
 }
@@ -255,6 +277,7 @@
   }
 }
 /* --------------------------------------------------End Header Section------------------------------------------- */
+/* --------------------------------------------------Start Navbar Section------------------------------------------- */
 .navbar-section {
   border-bottom: 0.0625rem solid #ccc;
   padding: 0.5rem;
@@ -345,4 +368,96 @@
   color: var(--bd-brown-color);
   text-decoration: none;
   font-size: 0.7rem;
+}
+/* Resvonive for Header */
+@media (max-width: 1480px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .navbar .nav-item {
+    flex: 1 1 15%;
+    margin-bottom: 0.5rem;
+  }
+}
+@media (max-width: 680px) {
+  .navbar {
+    display: none;
+  }
+}
+/* --------------------------------------------------End Navbar Section------------------------------------------- */
+/* --------------------------------------------------Start Main Section------------------------------------------- */
+.main .breadcrumb {
+  margin-top: 1rem;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 0.8rem;
+}
+
+.main .breadcrumb a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--bd-light-black);
+}
+
+.main .breadcrumb span {
+  color: var(--bs-body-color);
+  font-weight: bold;
+}
+.main .title {
+  text-align: center;
+  font-style: italic;
+  font-size: 2rem;
+  color: var(--bd-light-black);
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  padding-bottom: 1rem;
+  border-bottom: 0.0625rem solid var(--bd-border-color);
+}
+/* --------------------------------------------------End Main Section------------------------------------------- */
+.wall-art-section {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 1.2rem 2rem;
+  border-bottom: 0.0625rem solid var(--bd-border-color);
+}
+
+.wall-art-section .art-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 7rem;
+  text-align: center;
+}
+
+.wall-art-section .art-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.wall-art-section .art-item a {
+  font-size: 0.8rem;
+  display: inline-block;
+  font-family: var(--bs-font-sans-serif);
+  margin: 0;
+  color: var(--bd-light-black);
+  text-decoration: none;
+}
+
+.wall-art-section .art-item:hover a {
+  color: var(--bd-blue);
+  border-bottom: 0.0625rem solid var(--bd-brown-color);
+}
+.wall-art-section .art-item:hover img {
+  transition: opacity 0.3s ease;
+  opacity: 0.6;
+}
+
+.wall-art-section .art-item a:active {
+  color: var(--bd-blue);
+  font-size: 1rem;
+  font-style: italic;
 }
