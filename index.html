@@ -38,19 +38,25 @@
           <div class="icons menu-icons">
             <div class="icon">
               <a href="#">
-                <img src="https://static2.ballarddesigns.com/wcsstore/images/BallardDesigns/header/2024/store.svg"/>
+                <img
+                  src="https://static2.ballarddesigns.com/wcsstore/images/BallardDesigns/header/2024/store.svg"
+                />
                 <span>Stores</span>
               </a>
             </div>
             <div class="icon">
               <a href="#">
-               <img src="https://static2.ballarddesigns.com/wcsstore/images/BallardDesigns/header/2024/Orders.svg"/>
+                <img
+                  src="https://static2.ballarddesigns.com/wcsstore/images/BallardDesigns/header/2024/Orders.svg"
+                />
                 <span>Order Status</span>
               </a>
             </div>
             <div class="icon">
               <a href="#">
-                <img src="https://static2.ballarddesigns.com/wcsstore/images/BallardDesigns/header/2024/user.svg"/>
+                <img
+                  src="https://static2.ballarddesigns.com/wcsstore/images/BallardDesigns/header/2024/user.svg"
+                />
                 <span>Account</span>
               </a>
             </div>
@@ -193,6 +199,35 @@
         </div>
         <h1 class="title">Wall Art</h1>
         <section id="wall-art-section" class="wall-art-section"></section>
+        <section id="filter-section" class="filterSection">
+          <div class="labels">
+            <h4 class="filter">Filter Products</h4>
+            <h4 class="sort">Sort</h4>
+          </div>
+          <div class="content">
+            <div class="filterContainer" id="filter-container"></div>
+            <div class="sortContainer">
+              <select id="sort">
+                <option>Relevance</option>
+                <option>What</option>
+                <option>Price: Low to High</option>
+                <option>Price: High to Low</option>
+                <option>Customer Ratings</option>
+                <option>Alphabetically</option>
+              </select>
+              <div class="stockFilter">
+                <label class="toggleSwitch">
+                  <input type="checkbox" />
+                  <span class="slider"></span>
+                </label>
+                <div>
+                  <div class="stock-text">IN STOCK</div>
+                  <div class="stock-subtext">Ships in 1-7 business days</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
     <!-- End Main Section -->
