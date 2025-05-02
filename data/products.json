@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "title": "A Sunlit Stroll ABrightenrt",
+      "mainImage": "https://akamai-scene7.ballarddesigns.com/is/image/ballarddesigns/T_Template?$SLI_LargeGrid$&$src=WG516_main&defaultImage=WG516_main",
+      "thumbnails": [],
+      "hoverImage": "bird-hover.jpg",
+      "originalPrice": "$359.00 - $1,149.00",
+      "salePrice": "$251.30 - $804.30",
+      "hasMoreOptions":false,
+      "isNew": false
+    },
+    {
+      "id": 2,
+      "title": "A Walk Through the Oaks Stretched Canvas",
+      "mainImage": "https://akamai-scene7.ballarddesigns.com/is/image/…argeGrid$&$src=WG515_main&defaultImage=WG515_main",
+      "thumbnails": [],
+      "originalPrice": "$399.00 - $599.00",
+      "salePrice":"$279.30 - $419.30",
+      "hasMoreOptions":false,
+      "isNew": false
+    },
+    {
+      "id": 3,
+      "title": "Abstract Southwest Framed Canvas",
+      "mainImage": "https://akamai-scene7.ballarddesigns.com/is/image/ballarddesigns/T_Template?$SLI_LargeGrid$&$src=WQ819_main&defaultImage=WQ819_main",
+      "thumbnails": [],
+      "originalPrice": "$399.00 - $849.00",
+      "salePrice": "sale $279.30 - $594.30",
+      "hasMoreOptions":false,
+      "isNew": false
+    },
+    {
+        "id": 4,
+        "title": "Across the Water Art",
+        "mainImage": "https://akamai-scene7.ballarddesigns.com/is/image/…argeGrid$&$src=WQ855_main&defaultImage=WQ855_main",
+        "thumbnails": [],
+        "originalPrice": "$449.00 - $1,029.00",
+        "salePrice": "$314.30 - $720.30",
+        "hasMoreOptions":false,
+        "isNew": false
+      },
+      {
+        "id": 5,
+        "title": "Admiring the Lake Art",
+        "mainImage": "https://akamai-scene7.ballarddesigns.com/is/image/…argeGrid$&$src=WQ837_main&defaultImage=WQ837_main",
+        "thumbnails": [],
+        "originalPrice": "$564.00 - $929.00",
+        "salePrice": "$394.80 - $650.30",
+        "hasMoreOptions":false,
+        "isNew": true
+      },
+      {
+        "id": 6,
+        "title": "Anemone Fields Art",
+        "mainImage": "https://akamai-scene7.ballarddesigns.com/is/image/…argeGrid$&$src=WQ830_main&defaultImage=WQ830_main",
+        "thumbnails": [],
+        "originalPrice": "$969.00 - $1,329.00",
+        "salePrice": "$678.30 - $930.30",
+        "hasMoreOptions":false,
+        "isNew": false
+      }, {
+        "id": 7,
+        "title": "Arbre de la Vie Art",
+        "mainImage": "https://akamai-scene7.ballarddesigns.com/is/image/…argeGrid$&$src=WG669_main&defaultImage=WG669_main",
+        "thumbnails": [],
+        "originalPrice": "$529.00 - $599.00",
+        "salePrice": "$370.30 - $419.30",
+        "hasMoreOptions":false,
+        "isNew": false
+      },
+      {
+        "id": 8999999999,
+        "title": "Brighten My Day Art",
+        "mainImage": "brighten-my-day.jpg",
+        "thumbnails": [],
+        "originalPrice": 499.00,
+        "salePrice": 300.30,
+        "hasMoreOptions":false,
+        "isNew": true
+      },
+      {
+        "id": 3,
+        "title": "Calloway Art",
+        "mainImage": "calloway.jpg",
+        "thumbnails": ["thumb1.jpg", "thumb2.jpg"],
+        "originalPrice": 670.00,
+        "salePrice": 223.30,
+        "hasMoreOptions":false,
+        "isNew": true
+      }
+  ]
+  
