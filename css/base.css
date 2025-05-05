@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:wght@100..900&display=swap");
+
+:root {
+  --bd-logo-color: #635446;
+  --bd-brown-color: #53331b;
+  --bd-light-tan: #f3f1e9;
+  --bd-lighter-tan: #f9f8f6;
+  --bd-dark-tan: #bcb8a5;
+  --bd-light-gray: #f4f4f4;
+  --bd-border-color: #ddd;
+  --bd-lighish-gray: #dfdbd8;
+  --bd-light-black: #383838;
+  --bd-black: #000;
+  --bd-light-brown: #7b6c58;
+  --bd-footer-color: #947c6a;
+  --bs-body-color: #686868;
+  --bd-blue: #006fcc;
+  --bs-body-red: #de3434;
+  --bd-white-color:#ffff;
+  --bd-sale-color: #be2143;
+  --bd-transparent-white-75: rgba(255, 255, 255, 0.75);
+  --bs-font-sans-serif: "Montserrat", Verdana, Helvetica, sans-serif;
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+body {
+  overflow-y: scroll;
+}

@@ -1,0 +1,62 @@
+/* --------------------------------------------------strat footer Section------------------------------------------- */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: var(--bd-light-tan);
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.social-icons a {
+  color: var(--bd-brown-color);
+  font-size: 1.8rem;
+}
+
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 6rem;
+  right: 2rem;
+  color: var(--bs-body-color);
+  z-index: 99;
+  font-size: 1.5rem;
+  border: 2px solid var(--bd-border-color);
+  outline: none;
+  background-color: var(--bd-light-gray);
+  cursor: pointer;
+  padding: 0.6rem 1rem;
+}
+
+.contact-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 1.2rem 0;
+  border-top: 1px solid var(--bd-border-color);
+  border-bottom: 1px solid var(--bd-border-color);
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.social-footer .contact-item {
+  display: flex;
+  align-items: center;
+  color: var(--bd-brown-color);
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1.5rem;
+}
+.contact-item i {
+  flex: 1;
+  justify-content: space-between;
+  margin-right: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: inherit;
+}
+/* --------------------------------------------------End footer Section------------------------------------------- */

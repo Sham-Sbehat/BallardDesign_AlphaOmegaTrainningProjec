@@ -1,8 +1,3 @@
-/////////////////////////////////////////////// For Navbar responsive ///////////////////////////////////////////////
-function toggleMenu() {
-  document.querySelector(".icons.menu-icons").classList.toggle("show");
-}
-
 /////////////////////////////////////////////// For wall-art-section data fetching ///////////////////////////////////////////////
 fetch("./data/categoriesData.json")
   .then((response) => response.json())
@@ -212,20 +207,3 @@ fetch("./data/filters.json")
   .catch((error) => {
     console.error("Error loading filters:", error);
   });
-
-/////////////////////////////////////////////// button backToTop ///////////////////////////////////////////////
-const backToTopBtn = document.getElementById("backToTopBtn");
-let scrollTimeout;
-
-window.addEventListener("scroll", () => {
-  backToTopBtn.style.display = "none";
-  clearTimeout(scrollTimeout);
-  scrollTimeout = setTimeout(() => {
-    if (window.scrollY > 100) {
-      backToTopBtn.style.display = "block";
-    }
-  }, 300);
-});
-backToTopBtn.addEventListener("click", () => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-});

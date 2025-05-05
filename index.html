@@ -13,13 +13,13 @@
       rel="stylesheet"
     />
     <!-- Css Style Link  -->
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Wall Arts | Ballard Desgins</title>
   </head>
   <body>
     <!-- Start Header Section -->
     <header class="header">
-      <header class="container">
+      <div class="container">
         <div class="topHeader">
           <div class="nav-links">
             <a href="#">Free Desgin Services</a>
@@ -29,7 +29,7 @@
         <div class="mainHeader">
           <button class="menu-toggle" onclick="toggleMenu()">☰</button>
           <div class="logo">
-            <a href="#"> BALLARD DESIGNS </a>
+            <a href="#"> <img src="https://www.ballarddesigns.com/wcsstore/images/BallardDesigns/favicons/logo.svg"/></a>
           </div>
           <div class="search-bar">
             <input type="text" placeholder="What can we help you find?" />
@@ -41,7 +41,7 @@
                 <img
                   src="https://static2.ballarddesigns.com/wcsstore/images/BallardDesigns/header/2024/store.svg"
                 />
-                <span>Stores</span>
+                <span class="span-title">Stores</span>
               </a>
             </div>
             <div class="icon">
@@ -49,7 +49,7 @@
                 <img
                   src="https://static2.ballarddesigns.com/wcsstore/images/BallardDesigns/header/2024/Orders.svg"
                 />
-                <span>Order Status</span>
+                <span class="span-title">Order Status</span>
               </a>
             </div>
             <div class="icon">
@@ -57,22 +57,19 @@
                 <img
                   src="https://static2.ballarddesigns.com/wcsstore/images/BallardDesigns/header/2024/user.svg"
                 />
-                <span>Account</span>
+                <span class="span-title">Account</span>
               </a>
             </div>
             <div class="icon cart">
               <a href="#">
                 <i class="fas fa-shopping-cart"></i>
-                <span>Cart</span>
+                <span class="span-title">Cart</span>
                 <div class="cart-count">0</div>
               </a>
             </div>
           </div>
         </div>
-      </header>
-    </header>
-    <!-- End Header Section -->
-    <!-- start navbar Section -->
+        <!-- start navbar Section -->
     <nav class="navbar-section">
       <div class="container">
         <div class="navbar">
@@ -190,6 +187,9 @@
       </div>
     </nav>
     <!-- End navbar Section -->
+      </div>
+    </header>
+    <!-- End Header Section -->
     <!-- Start Main Section -->
     <main class="main">
       <div class="container">
@@ -253,9 +253,31 @@
         <a href="#"><i class="fab fa-youtube"></i></a>
         <a href="#"><i class="fab fa-pinterest-p"></i></a>
       </div>
+      <div class="contact-bar">
+    <div class="contact-item">
+      <i class="fas fa-phone"></i>
+      <a href="tel:8005367551">(800) 536-7551</a>
+    </div>
+    <div class="contact-item">
+      <i class="fas fa-comment-dots"></i>
+      <a href="#">Live Chat</a>
+    </div>
+    <div class="contact-item">
+      <i class="fas fa-envelope"></i>
+      <a href="mailto:support@example.com">Email Us</a>
+    </div>
+    <div class="contact-item">
+      <i class="fas fa-pencil-alt"></i>
+      <a href="#">Design Services</a>
+    </div>
+  </div>
     </footer>
     <!-- End Footer Section -->
 
-    <script src="./main.js"></script>
+    <script src="./js/base.js"></script>
+    <script src="./js/mainSection.js"></script>
+
+    </script>
+    
   </body>
 </html>
