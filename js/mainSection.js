@@ -39,18 +39,18 @@ function getPriceRangeFromItem(item) {
   if (!match || match.length < 1) return null;
 
   const prices = match.map((p) => parseFloat(p.replace(/[^0-9.]/g, "")));
-  return [Math.min(...prices), Math.max(...prices)];
+  return [Math.min(...prices), Math.max(...prices)]; 
 }
 
 function filterDataByPriceRange(data, selectedRanges) {
-  if (selectedRanges.length === 0) return data;
-
+  if (selectedRanges.length === 0) return data; 
   return data.filter((item) => {
     const itemRange = getPriceRangeFromItem(item);
-    if (!itemRange) return false;
+    if (!itemRange) return false; 
+
 
     return selectedRanges.some((range) => {
-      return itemRange[0] <= range[1] && itemRange[1] >= range[0];
+      return itemRange[0] >= range[0] && itemRange[1] <= range[1];
     });
   });
 }
