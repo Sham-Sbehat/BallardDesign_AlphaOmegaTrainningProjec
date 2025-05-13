@@ -1,0 +1,75 @@
+[
+  {
+    "title": "Price Range",
+    "options": [
+      "$25 - $100 (2)",
+      "$100 - $250 (11)",
+      "$250 - $500 (101)",
+      "$500 - $1000 (132)",
+      "$1000 - $1500 (34)",
+      "$1500 - $2000 (2)",
+      "$2000 - $3000 (5)"
+    ]
+  },
+  {
+    "title": "Color",
+    "options": [
+      "Beige/Taupe (11)",
+      "Black (11)",
+      "Blue (85)",
+      "Brown (16)",
+      "Gray (29)",
+      "Green (49)",
+      "Multi (35)",
+      "Off White (1)",
+      "Orange/Coral (7)",
+      "Pink (16)",
+      "Purple (6)",
+      "Red (12)",
+      "White (18)",
+      "Yellow (1)",
+      "Yellow/Gold (23)"
+    ]
+  },
+  {
+    "title": "Frame Finish",
+    "options": [
+      "Beige/Taupe (1)",
+      "Black (8)",
+      "Brass (1)",
+      "Brown (32)",
+      "Champagne (16)",
+      "Gray (11)",
+      "Green (1)",
+      "Off White (2)",
+      "Silver (27)",
+      "White (9)",
+      "Yellow/Gold (35)"
+    ]
+  },
+  {
+    "title": "Type",
+    "options": ["Canvas (46)", "Framed Art (136)", "Wood Prints (3)"]
+  },
+  {
+    "title": "Orientation",
+    "options": ["Both (15)", "Horizontal (51)", "Vertical (77)"]
+  },
+  {
+    "title": "Subject",
+    "options": [
+      "Abstract (23)",
+      "Animal (29)",
+      "Cityscape (1)",
+      "Coastal (22)",
+      "Figurative (3)",
+      "Floral (65)",
+      "Geometric (1)",
+      "Nature (13)",
+      "Photography (1)",
+      "Portrait (2)",
+      "Still Life (3)",
+      "Vintage (2)"
+    ]
+  }
+]
